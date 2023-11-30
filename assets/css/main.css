@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins&family=Roboto&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Mada&display=swap');
+
+*{
+    margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+    
+}
+.container{
+    width: calc(100% - 122px);
+    margin: auto;
+    
+}
+.body{
+    font-family: 'Poppins', sans-serif;
+
+}
+a{
+    text-decoration:none;
+    
+}
+ul{
+    list-style-type: none;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+/*public*/
+.header{
+    background: #FFF;
+    box-shadow: 0px 5.64744px 15.2372px 0px rgba(0, 0, 0, 0.10);
+    position: sticky;
+    top: 0;
+    padding: 11px;
+}
+
+.logo{
+    display: flex;
+    text-align: center;
+    gap: 6px;
+    
+}
+.logo img{
+    width: 30px;
+    height: 30px;
+}
+.logo a{
+   margin-top:8px; 
+   color: #545BE8;
+   text-align: center;
+   font-family: 'Roboto', sans-serif;;
+   font-size: 13px; 
+   font-weight: 700;
+}
+
+.nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+    
+}
+.nav ul li{
+    padding: 10px;
+    font-weight: 400;
+    font-size: 14px;
+   
+    
+    
+}
+.nav ul li a
+{
+    color: #101928;
+}
+.active{
+    font-weight: 700;
+}
+.boton ul
+{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 13px;
+}
+.boton a{
+    padding: 5.354px 23.181px;
+    border-radius: 7px;
+    border: 0.412px solid #545BE8;
+}
+
+.LogIn{
+    color: #545BE8;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.Register{
+    background: #545BE8;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+
+}
+/* ////////////////////////////////////////////////*/
+main h2{
+    text-align: center;
+    padding: 20px;
+    color: #0D1222;
+    font-family: 'Mada', sans-serif;
+}
+.row.testimonials{
+    justify-content: flex-start;
+    gap: 20px;
+}
+.testimonials{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    box-shadow: 10px 8.33658px 8.33658px 3px rgba(0, 0, 0, 0.10);
+    background-color: #FFF;
+    margin-bottom: 60px;
+    position: relative;
+
+}
+.testimonials::after{
+    content: '';
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    top: 0;
+    right: 0;
+    border-top: 60px solid #cac9c9;
+    border-left: 60px solid transparent ;
+    border-bottom: 60px solid transparent;
+    transform: rotate(0deg);
+}
+
+.testimonials .user{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.user img{
+    border-radius: 50%;
+}
+.user .user-data{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.user-data h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+
+}
+.user-data span{
+    color: #969696;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.testimonials .stars{
+    
+}
+.testimonials blockquote q{
+    color: #646464;
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+}
+
+
+
+/* ////////////////////////////////////////////////*/
+.footer{
+    background: #393E46;
+    color: #FFF;
+    padding: 60px
+
+}
+.footer a{
+    color: #FFF;
+}
+.footer .row{
+    gap: 20px;
+}
+.left , .right{
+    width: calc((100% - 20px)/2 );
+}
+.footer.left{
+    padding: 50px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.footer p{
+    color: var(--light, #F4F4F4);
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.footer.logo{
+    display: flex;
+    text-align: center;
+    gap: 10px;
+}
+.footer .logo a{
+    color: #FFF;
+}
+.footer .icons{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.footer .icons svg{
+    border: 0.7px solid #FFF;
+    padding: 6px;
+    box-sizing: content-box;
+}
+.right{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-evenly;
+   
+}
+.right h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    
+    
+    
+}
+.foteer-item{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    
+}
+.right ul li{
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 11.5px;
+}
+    
+ 
